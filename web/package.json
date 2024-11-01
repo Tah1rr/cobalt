@@ -12,7 +12,7 @@
     },
     "license": "CC-BY-NC-SA-4.0",
     "engines": {
-        "node": ">=20",
+        "node": ">=18",  // Consider using a stable LTS version
         "pnpm": ">=9"
     },
     "repository": {
@@ -29,7 +29,8 @@
         "@fontsource/ibm-plex-mono": "^5.0.13",
         "@fontsource/redaction-10": "^5.0.2",
         "@imput/libav.js-remux-cli": "^5.5.6",
-        "@imput/version-info": "workspace:^",
+        // Change this if possible
+        "@imput/version-info": "latest", // Replace 'latest' with a specific version if needed
         "@sveltejs/adapter-static": "^3.0.2",
         "@sveltejs/kit": "^2.0.0",
         "@sveltejs/vite-plugin-svelte": "^3.0.0",
